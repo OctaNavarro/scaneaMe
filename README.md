@@ -22,10 +22,15 @@ El boilerplate cuenta con dos carpetas: `api` y `client`. En estas carpetas esta
 ## 💻 Tecnologías utilizadas:
 
 ➛ Base de datos: MongoDB
+
 ➛ Backend: Nodejs and Express
+
 ➛ Frontend: React, redux
+
 ➛ Imágenes: Cloudinary
+
 ➛ Authentication: Auth0
+
 ➛ Paymeny platform: Stripe
 
 
