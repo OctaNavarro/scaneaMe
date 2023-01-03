@@ -1,86 +1,32 @@
-BACKEND DEV EN RAILWAY: https://api-production-2f62.up.railway.app/
+﻿# scaneaMe
+Es un e-commerce desarrollado como una SPA, en donde se vende ropa. Pero cada prenda vendida esta asociada a un usuario mediante un código QR (el cual está bordado en la prennda y además se lo envía por email), este código QR nos redirige a una página de perfil de usuario en donde se puede compartir una foto, links a las redes sociales y una descripción.
 
-Las rutas son las siguientes:
-GET http://localhost:5000/products
-GET http://localhost:5000/products/:id
-DELETE http://localhost:5000/products/:id
+## Imágenes de muestra
 
-GET http://localhost:5000/user/:email
+  Home
+  ![home1](https://user-images.githubusercontent.com/109104643/210361619-f2891e67-4348-471e-9a18-8ffa94264220.png)
 
-POST http://localhost:5000/products
-
-body:
-{
-        "name": "Pantalon chupin",
-        "color": "black",
-        "type": "pants",
-        "price": 150,
-        "image": "https://res.cloudinary.com/dxfksb8ua/image/upload/v1666969305/cld-sample-5.jpg",
-        "stock": [
-        {
-            "size": "xs",
-            "quantity": 10
-        },
-        {
-            "size": "s",
-            "quantity": 5
-        },
-        {
-            "size": "m",
-            "quantity": 3
-        },
-        {
-            "size": "l",
-            "quantity": 12
-        },
-        {
-            "size": "xl",
-            "quantity": 0
-        },
-        {
-            "size": "xxl",
-            "quantity": 18
-        }
-    ]
-}
+  
+  Catálogo
+  ![catalogo](https://user-images.githubusercontent.com/109104643/210361670-098568b2-eee4-41b2-bd8f-e264dd26bcfe.png)
 
 
-PUT http://localhost:5000/products/:id
+  Perfil de usuario
+  ![perfil](https://user-images.githubusercontent.com/109104643/210361728-7614a492-95fc-40a5-ba22-a5ff2cee4f6e.png)
+
+
+## BoilerPlate
+
+El boilerplate cuenta con dos carpetas: `api` y `client`. En estas carpetas estará el código del back-end y el front-end respectivamente.
+
+## ::PC Tecnologías utilizadas:
+
+➛ Base de datos: MongoDB
+➛ Backend: Nodejs and Express
+➛ Frontend: React, redux
+➛ Imágenes: Cloudinary
+➛ Authentication: Auth0
+➛ Paymeny platform: Stripe
 
 
 
-body:
-
-{
-    "name": "Pantalon chupin",
-    "type": "pants",
-    "stock": [
-        {
-            "size": "xs",
-            "quantity": 5
-        },
-        {
-            "size": "s",
-            "quantity": 5
-        },
-        {
-            "size": "m",
-            "quantity": 3
-        },
-        {
-            "size": "l",
-            "quantity": 12
-        },
-        {
-            "size": "xl",
-            "quantity": 0
-        },
-        {
-            "size": "xxl",
-            "quantity": 18
-        }
-    ],
-    "color": "black",
-    "price": 150,
-    "image": "https://res.cloudinary.com/dxfksb8ua/image/upload/v1666969305/cld-sample-5.jpg"
-    }
