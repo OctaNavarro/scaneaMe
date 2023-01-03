@@ -34,4 +34,9 @@ El boilerplate cuenta con dos carpetas: `api` y `client`. En estas carpetas esta
 ➛ Paymeny platform: Stripe
 
 
+## 💻 Deployed version
+
+https://scaneame.vercel.app
+
+
 
