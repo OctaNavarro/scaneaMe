@@ -8,9 +8,9 @@ Es un e-commerce desarrollado como una SPA, en donde se vende ropa. Pero cada pr
 
   
   Catálogo
-  ![catalogo](https://user-images.githubusercontent.com/109104643/210361670-098568b2-eee4-41b2-bd8f-e264dd26bcfe.png)
+  ![catalogoFiltro](https://user-images.githubusercontent.com/109104643/210363035-1420d58d-6784-4d09-825d-5b454041686e.png)
 
-
+  
   Perfil de usuario
   ![perfil](https://user-images.githubusercontent.com/109104643/210361728-7614a492-95fc-40a5-ba22-a5ff2cee4f6e.png)
 
