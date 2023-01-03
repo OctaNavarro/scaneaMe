@@ -19,7 +19,7 @@ Es un e-commerce desarrollado como una SPA, en donde se vende ropa. Pero cada pr
 
 El boilerplate cuenta con dos carpetas: `api` y `client`. En estas carpetas estará el código del back-end y el front-end respectivamente.
 
-## ::PC Tecnologías utilizadas:
+## 💻 Tecnologías utilizadas:
 
 ➛ Base de datos: MongoDB
 ➛ Backend: Nodejs and Express
